@@ -4,7 +4,6 @@
     {
       "name": "Maya",
       "lastUpdated": "2025-08-27T14:35:00Z",
-      "amount": 2,
       "frames": [
         { "file": "emotes/Maya/Autodesk-Maya-Icon-1.png", "duration": 0.1 },
         { "file": "emotes/Maya/Autodesk-Maya-Icon-2.png", "duration": 0.1 }
