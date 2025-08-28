@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-28T17:03:50.932Z",
+  "lastUpdated": "2025-08-28T17:07:24.762Z",
   "emotes": [
     {
       "name": "Drarby",
@@ -61,14 +61,10 @@
     },
     {
       "name": "Maya",
-      "lastUpdated": "2025-08-27T16:50:02+02:00",
+      "lastUpdated": "2025-08-28T19:07:14+02:00",
       "frames": [
         {
           "fileName": "Autodesk-Maya-Icon-1.png",
-          "duration": 0.1
-        },
-        {
-          "fileName": "Autodesk-Maya-Icon-2.png",
           "duration": 0.1
         }
       ]
