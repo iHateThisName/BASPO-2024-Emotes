@@ -1,0 +1,108 @@
+name: Update Emotes Manifest
+
+on:
+  push:
+    branches: [ "main" ]
+  # Optional: allow manual runs from Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-manifest:
+    # Don’t re-run on our own commits (skip if commit message has [skip ci])
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # allow committing back
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate emotes_manifest.json
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          const { execSync } = require('child_process');
+
+          const repoRoot = process.cwd();
+          const EMOTES_DIR = path.join(repoRoot, 'emotes');
+          const MANIFEST_FILE = path.join(repoRoot, 'emotes_manifest.json');
+
+          function safeReaddir(dir) {
+            if (!fs.existsSync(dir)) return [];
+            return fs.readdirSync(dir, { withFileTypes: true });
+          }
+
+          function listEmoteDirs() {
+            return safeReaddir(EMOTES_DIR)
+              .filter(d => d.isDirectory() && !d.name.startsWith('.'))
+              .map(d => d.name)
+              .sort((a, b) => a.localeCompare(b, 'en'));
+          }
+
+          function listFrames(emotePath) {
+            return safeReaddir(emotePath)
+              .filter(f => f.isFile() && /\.(png|jpg|jpeg|gif|webp)$/i.test(f.name))
+              .sort((a, b) => a.name.localeCompare(b.name, 'en'))
+              .map(f => ({
+                fileName: f.name,
+                duration: 0.1   // 👈 default duration (change if needed)
+              }));
+          }
+
+          function gitLastUpdated(targetPath) {
+            try {
+              const out = execSync(`git log -1 --format=%cI -- "${targetPath}"`, { encoding: 'utf8' }).trim();
+              return out || null;
+            } catch {
+              return null;
+            }
+          }
+
+          const now = new Date().toISOString();
+
+          const emotes = listEmoteDirs().map(name => {
+            const p = path.join(EMOTES_DIR, name);
+            const frames = listFrames(p);
+            const lastUpdated = gitLastUpdated(p) || now;
+            return { name, lastUpdated, frames };
+          });
+
+          const manifest = {
+            lastUpdated: now,
+            emotes
+          };
+
+          const json = JSON.stringify(manifest, null, 2) + '\n';
+
+          let existing = '';
+          try { existing = fs.readFileSync(MANIFEST_FILE, 'utf8'); } catch {}
+
+          if (existing !== json) {
+            fs.writeFileSync(MANIFEST_FILE, json, 'utf8');
+            console.log('Manifest updated.');
+          } else {
+            console.log('Manifest already up to date.');
+          }
+          NODE
+
+      - name: Commit changes (if any)
+        run: |
+          if ! git diff --quiet -- emotes_manifest.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add emotes_manifest.json
+            git commit -m "chore: update emotes manifest [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
