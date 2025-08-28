@@ -1,6 +1,64 @@
 {
-  "lastUpdated": "2025-08-28T17:01:42.996Z",
+  "lastUpdated": "2025-08-28T17:03:50.932Z",
   "emotes": [
+    {
+      "name": "Drarby",
+      "lastUpdated": "2025-08-28T19:03:40+02:00",
+      "frames": [
+        {
+          "fileName": "DrarbyEmote00.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote01.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote02.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote03.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote04.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote05.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote06.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote07.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote08.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote09.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote10.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote11.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "DrarbyEmote12.png",
+          "duration": 0.1
+        }
+      ]
+    },
     {
       "name": "Maya",
       "lastUpdated": "2025-08-27T16:50:02+02:00",
