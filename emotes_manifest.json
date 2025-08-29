@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2025-08-28T17:07:24.762Z",
+  "lastUpdated": "2025-08-29T08:21:07.404Z",
   "emotes": [
+    {
+      "name": "AriPoint",
+      "lastUpdated": "2025-08-29T10:20:58+02:00",
+      "frames": [
+        {
+          "fileName": "AriPoint.png",
+          "duration": 0.1
+        }
+      ]
+    },
     {
       "name": "Drarby",
       "lastUpdated": "2025-08-28T19:03:40+02:00",
