@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-29T08:21:07.404Z",
+  "lastUpdated": "2025-08-29T08:32:19.937Z",
   "emotes": [
     {
       "name": "AriPoint",
@@ -65,6 +65,16 @@
         },
         {
           "fileName": "DrarbyEmote12.png",
+          "duration": 0.1
+        }
+      ]
+    },
+    {
+      "name": "EinarNormal",
+      "lastUpdated": "2025-08-29T10:32:09+02:00",
+      "frames": [
+        {
+          "fileName": "EinarNormal-01.png",
           "duration": 0.1
         }
       ]
