@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-01T08:14:39.938Z",
+  "lastUpdated": "2025-09-01T08:43:13.982Z",
   "emotes": [
     {
       "name": "AriPoint",
@@ -7,6 +7,16 @@
       "frames": [
         {
           "fileName": "AriPoint.png",
+          "duration": 0.1
+        }
+      ]
+    },
+    {
+      "name": "blue_lobster",
+      "lastUpdated": "2025-09-01T10:40:46+02:00",
+      "frames": [
+        {
+          "fileName": "pixelated-image.png",
           "duration": 0.1
         }
       ]
