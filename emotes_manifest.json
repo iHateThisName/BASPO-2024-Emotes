@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-29T08:32:19.937Z",
+  "lastUpdated": "2025-09-01T08:14:39.938Z",
   "emotes": [
     {
       "name": "AriPoint",
@@ -85,6 +85,16 @@
       "frames": [
         {
           "fileName": "Autodesk-Maya-Icon-1.png",
+          "duration": 0.1
+        }
+      ]
+    },
+    {
+      "name": "TestEmoteByBen",
+      "lastUpdated": "2025-09-01T10:12:38+02:00",
+      "frames": [
+        {
+          "fileName": "CryEngineInterface.png",
           "duration": 0.1
         }
       ]
