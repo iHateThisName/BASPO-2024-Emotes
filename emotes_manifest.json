@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-02T17:30:55.381Z",
+  "lastUpdated": "2025-09-02T21:52:29.496Z",
   "emotes": [
     {
       "name": "AriPoint",
@@ -85,6 +85,28 @@
       "frames": [
         {
           "fileName": "EinarNormal-01.png",
+          "duration": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Inga_Delta",
+      "lastUpdated": "2025-09-02T23:50:24+02:00",
+      "frames": [
+        {
+          "fileName": "Inga_Deltarune0.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "Inga_Deltarune1.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "Inga_Deltarune2.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "Inga_Deltarune3.png",
           "duration": 0.1
         }
       ]
