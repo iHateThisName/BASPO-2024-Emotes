@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-02T21:52:29.496Z",
+  "lastUpdated": "2025-09-02T21:55:36.495Z",
   "emotes": [
     {
       "name": "AriPoint",
@@ -12,11 +12,159 @@
       ]
     },
     {
+      "name": "BenjaminL.v1",
+      "lastUpdated": "2025-09-02T23:52:00+02:00",
+      "frames": [
+        {
+          "fileName": "BenL0.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "BenL1.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "BenL2.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "BenL3.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "BenL4.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "BenL5.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "BenL6.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "BenL7.png",
+          "duration": 0.1
+        }
+      ]
+    },
+    {
       "name": "blue_lobster",
       "lastUpdated": "2025-09-01T10:40:46+02:00",
       "frames": [
         {
           "fileName": "pixelated-image.png",
+          "duration": 0.1
+        }
+      ]
+    },
+    {
+      "name": "CatSplatEmote",
+      "lastUpdated": "2025-09-02T23:52:00+02:00",
+      "frames": [
+        {
+          "fileName": "CatSplat00.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat01.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat02.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat03.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat04.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat05.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat06.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat07.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat08.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat09.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat10.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat11.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat12.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat13.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat14.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat15.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat16.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat17.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat18.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat19.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat20.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat21.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat22.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat23.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat24.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "CatSplat25.png",
           "duration": 0.1
         }
       ]
@@ -107,6 +255,64 @@
         },
         {
           "fileName": "Inga_Deltarune3.png",
+          "duration": 0.1
+        }
+      ]
+    },
+    {
+      "name": "IvarJellyAnimeglasses",
+      "lastUpdated": "2025-09-02T23:52:00+02:00",
+      "frames": [
+        {
+          "fileName": "IvarJelly00.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly01.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly02.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly03.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly04.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly05.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly06.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly07.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly08.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly09.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly10.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly11.png",
+          "duration": 0.1
+        },
+        {
+          "fileName": "IvarJelly12.png",
           "duration": 0.1
         }
       ]
